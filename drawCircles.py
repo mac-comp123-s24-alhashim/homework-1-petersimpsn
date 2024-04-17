@@ -19,7 +19,7 @@ turt.width(5)
 numRings = 6
 
 for i in range(numRings):
-    turt.color(tColors[i-1]) #The tColors[0] should be tColors[i-1] so it changes with each iteration of the for loop
+    turt.color(tColors[i]) #The tColors[0] should be tColors[i-1] so it changes with each iteration of the for loop
     radius = 40 * (i + 1)
 
     

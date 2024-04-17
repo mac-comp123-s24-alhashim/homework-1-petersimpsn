@@ -13,5 +13,6 @@ searchRadius = searchDiameter/2
 
 numCircles1 = searchRadius / 5
 
+print("The beginning of the search readius is ", rectHeight/2, "tall and ", rectWidth/2, " wide.")
 print("The search radius is: ", searchRadius, " meters.")
 print("Therefore, we would do ", math.ceil(numCircles1), " circles, with each expanding by 5 meters.")

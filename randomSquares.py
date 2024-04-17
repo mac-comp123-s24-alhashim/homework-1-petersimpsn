@@ -23,7 +23,7 @@ for i in range(25):
 
     turtle.begin_fill()
     for i in range(4):
-        turtle.forward(10)
+        turtle.forward(25)
         turtle.left(90)
     turtle.end_fill()
 
